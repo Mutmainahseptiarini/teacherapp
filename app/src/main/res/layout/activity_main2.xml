@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:gravity="center_vertical"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/foto" />
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROFIL GURU"
+        android:gravity="center_horizontal"
+        android:textColor="#121111"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : ira silvia april liani, S.pd"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NUPTK : 4738773674230092"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata Pelajaran : Bimbingan konseling"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agama : Islam"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Kelamin : Perempuan"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tempat/Tanggal Lahir : jepara,06 april 1995"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:text="Alamat : jln.kemuning raya rt05/rw09 krapyak tahunan jepara"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

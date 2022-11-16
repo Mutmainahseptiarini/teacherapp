@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROFIL SMKN 1 SAYUNG"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:text="Smk Mempunyai 5 kompetensi keahlian"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Teknik Pengelasan Dan Fabrikasi Logam"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Teknik Otomotif"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Pengembangan Perangkat Lunak dan Gim"
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_margin="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Tata Busana "
+            android:gravity="center_horizontal"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:layout_margin="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="5.Kuliner"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</ScrollView>
